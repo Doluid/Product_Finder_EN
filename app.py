@@ -26,7 +26,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     if st.button("🖥️ Monitor Finder\n\nFind the perfect display for your desk"): st.switch_page("pages/1_Monitor.py")
 with col2:
-    if st.button("💻 Gram Finder\n\nMore than just lightweight. Find your laptop"): st.switch_page("pages/2_Gram.py")
+    if st.button("💻 gram Finder\n\nMore than just lightweight. Find your laptop"): st.switch_page("pages/2_gram.py")
 with col3:
     if st.button("📺 OLED TV Finder\n\nAbsolute black. Perfect your living room"): st.switch_page("pages/3_OLED_TV.py")
 
